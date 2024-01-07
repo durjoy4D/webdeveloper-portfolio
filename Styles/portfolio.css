@@ -104,7 +104,6 @@ nav a {
     color: #757575;
     text-align: center;
     font-size: 18px;
-    padding: 30px 156px 221px;
 }
 
 main {
@@ -112,20 +111,44 @@ main {
     margin: 0 auto;
 }
 
-.about-info-content{
+main section {
+    margin-top: 130px;
+}
+
+.about-info-content {
     display: flex;
     justify-content: space-around;
 }
 
-.info-title {
-    color: #757575;
+.about-info {
     text-align: center;
-    font-size: 20px;
-    font-weight: 400;
 }
 
-.info-description {
+#whai-i-do-description {
+    padding: 30px 150px;
+}
+
+.skills {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-descriotion {
+    color: #757575;
+}
+
+.resume-colum-title {
     color: #474747;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 700;
+}
+.resume-colum-title{
+    display: flex;
 }
